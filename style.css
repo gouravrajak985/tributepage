@@ -1,54 +1,61 @@
+/*
+* Project: Tribute Page - Dr. APJ Abdul Kalam
+* Author: Gourav Rajak
+* Description: Stylesheet for the tribute page, featuring a clean and responsive design
+* with a white content boxes on light gray background
+*/
+
+/* Reset and Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
 }
 
+/* Header Styles - Contains the main title */
 header {
     text-align: center;
     padding: 20px;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto; /* Center align the header */
 }
 
-header h1{
+header h1 {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
 }
- /* Content Styling */
 
- .content {
+/* Content Container Styles */
+.content {
     padding: 20px;
     max-width: 900px;
-    margin: 0 auto;
- }
+    margin: 0 auto; /* Center align the content */
+}
 
-/* About Section Styling */
- .About {
+/* About Section Styles */
+.About {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
-    
- }
+}
 
- .About img {
-    max-width: 25%;
- }
+/* Image sizing in About section */
+.About img {
+    max-width: 25%; /* Responsive image size */
+}
 
- .About h2 {
+.About h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-/* Achievements Section Styling */
-
+/* Achievements Section Styles */
 .Achievements {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
-    margin-top: 20px;
-
+    margin-top: 20px; /* Spacing from About section */
 }
 
 .Achievements h2 {
@@ -56,17 +63,17 @@ header h1{
     margin-bottom: 10px;
 }
 
+/* Achievement List Styles */
 .Achievements ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
 .Achievements li {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Spacing between list items */
 }
 
-/* Footer Styling */
-
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 20px;
@@ -74,7 +81,7 @@ footer {
     margin: 0 auto;
 }
 
-footer p{
+footer p {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
